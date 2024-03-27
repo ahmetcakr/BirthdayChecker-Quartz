@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayChecker.Application", "BirthdayChecker.Application\BirthdayChecker.Application.csproj", "{1748ABAF-3DB0-483C-92EE-32BD55593241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayChecker.WebAPI", "BirthdayChecker.WebAPI\BirthdayChecker.WebAPI.csproj", "{5B55BD88-A72F-4194-B667-B98648F39802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayChecker.Domain", "BirthdayChecker.Domain\BirthdayChecker.Domain.csproj", "{E4C10320-0915-4927-896D-5AEEDCFF5C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayChecker.Infrastructure", "BirthdayChecker.Infrastructure\BirthdayChecker.Infrastructure.csproj", "{2E2F0744-EB84-4DBA-921E-663765A46327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayChecker.Persistence", "BirthdayChecker.Persistence\BirthdayChecker.Persistence.csproj", "{45535F47-8EF3-45D8-853B-6190C135086D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1748ABAF-3DB0-483C-92EE-32BD55593241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1748ABAF-3DB0-483C-92EE-32BD55593241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1748ABAF-3DB0-483C-92EE-32BD55593241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1748ABAF-3DB0-483C-92EE-32BD55593241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B55BD88-A72F-4194-B667-B98648F39802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B55BD88-A72F-4194-B667-B98648F39802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B55BD88-A72F-4194-B667-B98648F39802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B55BD88-A72F-4194-B667-B98648F39802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C10320-0915-4927-896D-5AEEDCFF5C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C10320-0915-4927-896D-5AEEDCFF5C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C10320-0915-4927-896D-5AEEDCFF5C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C10320-0915-4927-896D-5AEEDCFF5C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2F0744-EB84-4DBA-921E-663765A46327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2F0744-EB84-4DBA-921E-663765A46327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2F0744-EB84-4DBA-921E-663765A46327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2F0744-EB84-4DBA-921E-663765A46327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45535F47-8EF3-45D8-853B-6190C135086D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45535F47-8EF3-45D8-853B-6190C135086D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45535F47-8EF3-45D8-853B-6190C135086D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45535F47-8EF3-45D8-853B-6190C135086D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01F3FB59-D272-40CC-85F8-8939F2F1B849}
+	EndGlobalSection
+EndGlobal
