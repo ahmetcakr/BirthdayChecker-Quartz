@@ -1,9 +1,10 @@
-﻿using Core.Persistence.Repositories;
+using Core.Application.Dtos;
 
-namespace BirthdayChecker.Domain.Entities;
+namespace Application.Features.Users.Queries.GetList;
 
-public class User : Entity<int>
+public class GetListUserListItemDto : IDto
 {
+    public int Id { get; set; }
     public string Name { get; set; }
     public DateTime BirthDate { get; set; }
     public string Email { get; set; }

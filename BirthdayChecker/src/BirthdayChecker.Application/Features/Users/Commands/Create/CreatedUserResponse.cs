@@ -1,9 +1,10 @@
-﻿using Core.Persistence.Repositories;
+using Core.Application.Responses;
 
-namespace BirthdayChecker.Domain.Entities;
+namespace Application.Features.Users.Commands.Create;
 
-public class User : Entity<int>
+public class CreatedUserResponse : IResponse
 {
+    public int Id { get; set; }
     public string Name { get; set; }
     public DateTime BirthDate { get; set; }
     public string Email { get; set; }

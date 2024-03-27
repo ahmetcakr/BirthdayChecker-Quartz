@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BirthdayChecker.Application.Services.Repositories;
+using BirthdayChecker.Domain.Entities;
+using BirthdayChecker.Persistence.Contexts;
+using Core.Persistence.Repositories;
 
 namespace BirthdayChecker.Persistence.Repositories;
 
-public class UserRepository
+public class UserRepository : EfRepositoryBase<User, int, BaseDbContext>, IUserRepository
 {
-
+    public UserRepository(BaseDbContext context) : base(context)
+    {
+    }
 }
