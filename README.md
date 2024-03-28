@@ -1,6 +1,6 @@
-<h1>BirthdayChecker</h1>
+<h1>Birthday Checker</h1>
 
-<strong>BirthdayChecker</strong> is a RESTful API that sends notifications to users who have birthdays each day.
+<strong>Birthday Checker</strong> is a RESTful API that sends notifications to users who have birthdays each day.
 
 <h2>Features</h2>
 <ul>
